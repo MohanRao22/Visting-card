@@ -1,0 +1,63 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.image-card-top{
+    width: 20%;
+    background-color: #1c1938;
+    padding-bottom: 30px;
+    border-radius: 20px;
+ 
+}
+.main-image{
+   
+    width: 100%;
+    height: 250px;
+   border-radius: 10px;
+}
+.main-quote{
+    font-size: 25px;
+  padding: 6px;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    color: white;
+    font-weight: 700;
+}
+.main-desc{
+   padding: 14px;
+    text-align: center;
+    margin-top: 10px;
+    color: wheat;
+    margin-top: 10px;
+}
+.rating{
+    
+    text-align: center;
+}
+.rating-desc{
+    margin: 3px 0px;
+    color: wheat;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.rating h6{
+ margin-top: 25px;
+ margin-bottom: 2px;
+    font-size: 20px;
+    color: white;
+}
+.marker{
+    color: #b5ff03;
+    text-shadow: 2px 2px 3px red;
+}
+@media(max-width:600px){
+    .image-card-top{
+        width: 65%;
+        background-color: #1c1938;
+        padding-bottom: 30px;
+        border-radius: 20px;
+     
+    }
+}
